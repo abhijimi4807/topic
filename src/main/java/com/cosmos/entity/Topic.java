@@ -21,6 +21,8 @@ public class Topic {
     private String technologyStack;
     //Ex:CoreJava,Spring etc..
     private String subjectName;
-    //Ex:static,final etc..
+    //Ex:basics,programs etc..
     private String topicName;
+    //Ex:static,final etc..
+    private String topicDescription;
 }

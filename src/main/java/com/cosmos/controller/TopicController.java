@@ -23,6 +23,11 @@ public class TopicController {
         log.info("getAllTopics got called");
         return topicService.getAllTopics();
     }
+    @GetMapping("/{topicId}")
+    public Topic getTopicByTopicId(@PathVariable Long topicId){
+        log.info("getTopicByTopicId got called");
+        return topicService.getTopicByTopicId(topicId);
+    }
     @PostMapping
     public Topic addTopic(@RequestBody Topic topic){
         log.info("addTopic got called");
