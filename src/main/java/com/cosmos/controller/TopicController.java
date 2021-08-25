@@ -39,7 +39,7 @@ public class TopicController {
     }
     @DeleteMapping("/{topicId}")
     public void deleteTopic(@PathVariable Long topicId){
-        
+
     }
 
 }
