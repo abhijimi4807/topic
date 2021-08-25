@@ -33,4 +33,13 @@ public class TopicController {
         log.info("addTopic got called");
         return topicService.addTopic(topic);
     }
+    @PutMapping("/{topicId}")
+    public void updateTopic(@PathVariable Long topicId){
+        //To Do
+    }
+    @DeleteMapping("/{topicId}")
+    public void deleteTopic(@PathVariable Long topicId){
+        
+    }
+
 }
